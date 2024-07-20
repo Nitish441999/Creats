@@ -1,0 +1,221 @@
+.Shopcard{
+    /* border: 2px solid black; */
+    height: 30rem;
+    margin: 14px;
+    display: flex !important;
+    box-shadow:
+    inset 0 -3em 2em rgb(0 200 0 / 30%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 0 / 60%);
+    border-radius: 10px;
+}
+element.style {
+    width: 100%;
+   
+}
+.cardImage{
+    width: 60%; 
+    height: 100%;
+  
+    padding: 0.5rem;
+}
+
+.cardImage img{
+    width: 100%;
+    height: 85%;
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+.Shopcard .cardImage .pick{
+    margin-top: 11px;
+    margin-bottom:0;
+    margin-left: 20px;
+    color: #D9AAB7;
+    text-align: justify;
+    
+}
+.sizes{
+    display: flex;
+    justify-content: center;
+   
+}
+.size{
+    padding: 9px;
+  border: 1px solid #D9AAB7;
+  font-size: 0.7em;
+  text-align: center;
+}
+.size:hover{
+    background: #BA7E7E;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+
+.cardInfo{
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid green; */
+    padding: 15px 5px ;
+}
+
+.Shopcard .cardInfo .Wruning{
+    font-size: 0.8rem;
+   color:#BA7E7E;
+  letter-spacing: 1px;
+  text-align: justify;
+  text-transform:uppercase ;
+}
+.Shopcard .cardInfo .desc{
+    text-transform: none;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    color:#4E4E4E;
+    font-size: 0.9em;
+    line-height: 1.6rem;
+    text-align: justify;
+}
+.Shopcard h6{
+    font-size: 1.5em;
+    color: #4E4E4E;
+    margin-top: -5px;
+    text-align: start;
+}
+.cardInfo h4{
+    text-align: start;
+    color:  #E0C9CB;;
+}
+.Bybutton{
+    background:#D9AAB7;
+    padding: 10px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin: 20px 0px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:black;
+    cursor: pointer;
+      
+  
+  }
+  .Bybutton:hover{
+      background: #BA7E7E;
+      transition: all .4s ease-in-out;
+  
+  }
+  .Addbutton{
+    background:#D9AAB7;
+    padding: 10px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin: 20px 0px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:black;
+    cursor: pointer;
+    margin:0px 5px;
+      
+}
+.Addbutton:hover{
+    background: #BA7E7E;
+    transition: all .4s ease-in-out;
+
+
+
+}
+@media screen and (max-width:600px) {
+    .Shopcard h6{
+        font-size: 1rem;
+    }
+    .Shopcard .cardInfo .desc{
+        margin-bottom:10px;
+        letter-spacing: 0px;
+        font-size: 0.7rem;
+        
+    }
+    .size{
+        font-size: 0.5rem;
+        padding: 8px;
+    }
+    .Bybutton{
+        letter-spacing: 0px;
+        padding: 8px;
+        margin-top: 50px;
+    }
+    .Addbutton{
+        letter-spacing: 0px;
+        padding: 8px;
+        margin: 0px;
+        margin-left: 3px;
+        margin-top: 50px;
+    }
+    
+    
+}
+@media   screen and (max-width:800px) {
+    .Shopcard h6{
+        font-size: 1rem;
+    }
+    .Shopcard .cardInfo .desc{
+        margin-bottom:10px;
+        letter-spacing: 0px;
+        font-size: 0.7rem;
+        
+    }
+    .size{
+        font-size: 0.5rem;
+        padding: 8px;
+    }
+    .Bybutton{
+        letter-spacing: 0px;
+        padding: 8px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .Addbutton{
+        letter-spacing: 0px;
+        padding: 8px;
+        margin: 0px;
+        margin-left: 3px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:1024px) {
+
+    .Shopcard h6{
+        font-size: 0.5rem;
+    }
+    .Shopcard .cardInfo .desc{
+        margin-bottom:10px;
+        letter-spacing: 0px;
+        font-size: 0.7rem;
+        
+    }
+    .size{
+        font-size: 0.5rem;
+        padding: 7px;
+    }
+    .Bybutton{
+        letter-spacing: 0px;
+        padding: 8px;
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    .Addbutton{
+        letter-spacing: 0px;
+        padding: 7px;
+        margin: 0px;
+        margin-left: 3px;
+        margin-top: 25px;
+        font-size: 12px;
+    }
+    
+}
+   
+    

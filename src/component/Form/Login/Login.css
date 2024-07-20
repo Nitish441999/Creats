@@ -1,0 +1,78 @@
+.loginSec{
+    margin:7rem 0px ;
+    height: 600px;
+
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    box-shadow:
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 0 / 60%);
+    border-radius: 20PX;
+}
+.loginPage{
+    
+    width: 70%;
+    height: 70%;
+    text-align: justify;
+    
+    
+    
+}
+.loginPage h3{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+   padding: 10px;
+    
+ }
+.loginPage label{
+    font-size: 1.7rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin: 0px 40px;
+}
+.loginPage input{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px 40px;
+    border: none;
+    box-shadow: 1PX 1PX 1PX 1PX #D9AAb7;
+    padding: 5px 20px;
+    border: 1px solid #D9AAb7;
+}
+.loginPage input:hover{
+    border: 4px solid #E0C9CB;
+}
+.loginPage button{
+    margin: 30px 40px;
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+    border-radius: 10px;
+    background: #D9AAb7;
+    border: none;
+}
+.loginPage button:hover{
+    background-color: #BA7E7E;
+}
+.loginPage p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 40px;
+
+}
+.loginPage p a{
+    text-decoration: none;
+    padding-bottom: 10px;
+}

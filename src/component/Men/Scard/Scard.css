@@ -1,0 +1,372 @@
+/* 
+.Mcato{
+    
+    margin: 10px;
+    height: 350px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 20px;
+}
+.Mcato img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 20px;
+}
+.Mcato h3{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.Mcato:hover{
+    border-radius: 20px;
+
+box-shadow:  4px 4px 4px 4px#bababa;
+}
+
+
+/*-------------------------------------------------------------------------*/
+
+.ScardSec{
+   
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+    
+}
+.Scard{
+    /*   */
+    
+    width: 23%;
+    height: 80%;
+    border-radius: 10px;
+    border-radius: 15px;
+   /* background: #e0e0e0;
+    box-shadow:  8px 8px 25px #bababa,
+             -8px -8px 25px #ffffff; */
+             box-shadow: 1px 1px 1px 1px #bababa;
+             padding: 15px;
+   
+    
+    
+}
+.Scard:hover{
+   
+    z-index: 999;
+    transform: scale(1.01);
+    transition: all ease-in-out 0.6s;
+    box-shadow: 5px 5px 5px 5px #bababa;
+
+}
+.Simage{
+   
+    width: 100%;
+    height: 68%;
+    object-fit: cover;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Simage img{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.Sinfo{
+    
+    width: 100%;
+    height: 32%;
+    
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+
+
+}
+.Sinfo a{
+    text-decoration: none;
+}
+.Sinfo h5{
+    padding-top: 10px;
+    text-align: justify;
+    margin: 5px 20px;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+}
+.SAddbutton{
+    font-size: o.5rem;
+    background:#D9AAB7;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color:black;
+    cursor: pointer;
+    padding: 8px 10px;
+    float: left;
+     margin: 8px 20px;
+    
+  
+}
+ .SAddbutton:hover{
+    background: #BA7E7E;
+      transition: all .4s ease-in-out;
+}
+
+.SBuybutton{
+    font-size: o.5rem;
+    background:#D9AAB7;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color:black;
+    cursor: pointer;
+    padding: 8px 10px;
+    float: right;
+    margin: 8px 20px;
+}
+ .SBuybutton:hover{
+    background: #BA7E7E;
+      transition: all .4s ease-in-out;
+}
+
+
+
+
+
+
+.Scard2{
+    width: 23%;
+    height: 80%;
+    border-radius: 10px;
+    border-radius: 14px;
+   background: #e0e0e0;
+    box-shadow:  8px 8px 25px #bababa,
+             -8px -8px 25px #ffffff;
+   
+
+}
+.Scard3{
+    width: 23%;
+    height: 80%;
+    border-radius: 10px;
+    border-radius: 14px;
+   background: #e0e0e0;
+    box-shadow:  8px 8px 25px #bababa,
+             -8px -8px 25px #ffffff;
+   
+
+}
+
+.Scard4{
+    width: 23%;
+    height: 80%;
+    border-radius: 10px;
+    border-radius: 14px;
+   background: #e0e0e0;
+    box-shadow:  8px 8px 25px #bababa,
+             -8px -8px 25px #ffffff;
+   
+
+}
+@media screen and (max-width:1024px){
+    .SAddbutton{
+        font-size: 10px;
+        margin: 8px 11px;
+        padding: 11px 10px;
+    }
+    .SBuybutton{
+        font-size: 10px;
+        margin: 8px 11px;
+        padding: 11px 10px;
+        
+    }
+    .Simage img{
+        height: 220px;
+    }
+    
+}
+@media screen and (max-width:800px){
+    .ScardSec{
+        /* display: grid;
+        grid-template-columns: auto auto ; */
+
+    }
+    
+        
+    }
+    @media screen and (max-width: 500px){
+        .ScardSec{
+            /* display: grid;
+            grid-template-columns: auto; */
+            margin-top: 20px;
+        }
+        .Scard{
+            width: 100%;
+            margin-top: 10px;
+            height: auto;
+
+        }
+        
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .Scard{
+    height: 25rem;
+    position: relative;
+    overflow: hidden;
+   
+    box-shadow:
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 0 / 60%);
+    border-radius: 10px; 
+   
+    
+}
+.Scard:hover {
+   cursor: pointer;
+
+}
+.Scard:hover .Scardinfo{
+    height: 35%;
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+.Scard .ScardImage{
+    width: 100%;
+    height: 100% ;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+.Scard .ScardImage img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+.Scard .Scardinfo{
+    width: 100%;
+    height: 13%;
+    text-align: start;
+    padding: 20px;
+    position: absolute;
+    bottom: 0%;
+    box-sizing: border-box;
+    background: rgb(27, 27, 27,.5);
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Scard .Scardinfo h5{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+ .sizes{
+    display: flex;
+    justify-content: center;
+   
+}
+.size{
+    padding: 9px;
+  border: 1px solid #D9AAB7;
+  font-size: 0.7em;
+  text-align: center;
+}
+.size:hover{
+    background: #BA7E7E;
+    color: white;
+    transition: all .4s ease-in-out;
+} 
+  
+
+
+.Scard .Scardinfo .SAddbutton{
+    font-size: o.5rem;
+    background:#D9AAB7;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color:black;
+    cursor: pointer;
+    padding: 8px 10px;
+    float: right;
+    margin: 8px;
+}
+.Scard .Scardinfo .SAddbutton:hover{
+    background: #BA7E7E;
+      transition: all .4s ease-in-out;
+}
+.SByebutton{
+    font-size: o.5rem;
+    background:#D9AAB7;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color:black;
+    cursor: pointer;
+    padding: 7px 10px;
+    margin: 10px;
+    
+
+}
+.Scard .Scardinfo .SByebutton:hover{
+    background: #BA7E7E;
+      transition: all .4s ease-in-out;
+}
+
+.row>* {
+    
+    padding-right:0px;
+    padding-left: 0px;
+}
+@media only screen and(max-width:500px){
+    .Scard{
+        margin:0px 80px;
+    }
+    .SByebutton{
+        background-color: red;
+    }
+}  */ */

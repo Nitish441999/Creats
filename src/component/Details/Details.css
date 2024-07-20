@@ -1,0 +1,293 @@
+/* #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    /* text-align: center; */
+
+.detailsec{
+   
+    display: flex;
+    height: 600px;
+    padding: 10px;
+
+}
+.detailsec .DimageSmall{
+    width: 20%;
+    height: auto;
+    object-fit: cover;
+}
+.detailsec .DimageSmall .Dimage1{
+    
+    width: 100%;
+    height: 20%;
+    margin: 20px 0px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.detailsec .DimageSmall .Dimage1:hover{
+    border: 1px solid #E0C9CB;
+    z-index: 100;
+    transform: scale(1.1);
+    transition: all ease-in 1s;
+}
+.detailsec .DimageSmall .Dimage1 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px;
+}
+.detailsec .Dimage{
+   
+    width: 75%;
+    height: 100%;
+    margin: 0px 10px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.detailsec .Dimage img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 20px;
+}
+.Dimageinfo{
+   
+    height: auto;
+    padding-left: 5rem;
+    
+}
+.Dimageinfo h1{
+   font-size: 2rem;
+   font-family: sans-serif;
+   font-weight: 600;
+   text-align: justify;
+   margin: 20px 20px;
+  
+}
+.Dimageinfo .Dstar{
+    margin-left: 20px;
+    text-align: justify;
+}
+.Dimageinfo i{
+    margin: 0px 3px;
+    text-align: justify;
+    
+}
+.Dimageinfo h5{
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-align: justify;
+}
+.Dimageinfo p{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-left: 20px;
+    margin-bottom: -5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.Dimageinfo .Dsizes{
+   
+   height: auto;
+   width: 100%;
+   display: flex;
+   padding: 10px 20px;
+}
+.Dimageinfo .Dsizes a{
+    text-decoration: none;
+    width: 15%;
+    height: 40px;
+    margin-left: 6px;
+
+}
+.Dimageinfo .Dsizes a .size1{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D9AAB7;
+    color: black;
+
+}
+.Dimageinfo .Dsizes a .size1:hover{
+    border: 1px solid #E0C9CB;
+    background: #BA7E7E;
+    z-index: 100;
+    transform: scale(1.1);
+    transition: all ease-in-out 1s;
+}
+.Dimageinfo .Dcolor{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 10px 20px;
+}
+.Dimageinfo .Dcolor a{
+    width: 15%;
+    height: 80px;
+    text-decoration: none;
+    color: #E0C9CB;
+}
+.Dimageinfo .Dcolor a .color1{
+    
+    width: 100%;
+    height: 100%;
+    background-color: #D9AAB7;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+.Dimageinfo .Dcolor a .color1:hover{
+    border: 1px solid #E0C9CB;
+    z-index: 100;
+    transform: scale(1.1);
+    transition: all ease-in-out 1s;
+}
+.Dimageinfo .DimageDec{
+    
+    text-align: justify;
+    margin: 0px 20px;
+}
+.Dimageinfo .DimageDec p{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Dimageinfo .Dbutton{
+    width: 100%;
+    height: auto;
+    margin: 25px 20px;
+    text-align: justify;
+    
+}
+.Dimageinfo .Dbutton .Daddbutton{
+    width: 40%;
+    margin-left: 20px;
+    padding: 13px 40px;
+    border: 1px solid #E0C9CB;
+    background: #D9AAB7;
+    border-radius: 10px;
+    font-size: 1.03rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    
+}
+.Dimageinfo .Dbutton .Daddbutton:hover{
+    background-color: #BA7E7E;
+}
+.Dimageinfo .Dbutton .Dbuybutton{
+    width: 40%;
+    margin-left: 10px;
+    padding: 13px 40px;
+    border: 1px solid #E0C9CB;
+    background: #D9AAB7;
+    border-radius: 10px;
+    font-size: 1.03rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    
+}
+.Dimageinfo .Dbutton .Dbuybutton:hover{
+    background-color: #BA7E7E;
+}
+/*--------------------------------------------------Decription-----------------------------------------------------*/
+.Ddescription{
+    text-align: justify;
+   
+    margin: 0px 20px;
+}
+.Ddescription h3{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+.Ddescription p{
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.Ddescription ul li{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+/*---------------------------------------------------------------sagetion card-------------------------------------*/
+.Sacard{
+    border: 2px solid black;
+    margin: 15px;
+    height: 300px;
+    border-radius: 14px;
+    background: #e0e0e0;
+    box-shadow:  10px 10px 20px #cccccc,
+             -10px -10px 20px #f4f4f4;
+    
+}
+@media screen and (max-width:600px){
+    .Dimageinfo .Dcolor a {
+        width: 14%;
+        height: 63px;
+    }
+    .Dimageinfo .Dbutton .Daddbutton {
+        font-size: 1rem;
+        padding: 16px 35px;
+
+    }
+    .Dimageinfo .Dbutton .Dbuybutton {
+        font-size: 1rem;
+        padding: 16px 35px;
+
+    }
+
+}
+@media screen and (max-width:800px) {
+    .Dimageinfo .DimageDec p {
+        font-size: 1rem;
+    }
+    .Dimageinfo .Dcolor a {
+        width: 14%;
+        height: 44px;
+    }
+    .Dimageinfo .Dsizes a{
+        width: 30%;
+    }
+    .Dimageinfo .Dbutton .Daddbutton {
+        font-size: 0.6rem;
+        padding: 19px 26px;
+    }
+    .Dimageinfo .Dbutton .Dbuybutton {
+        font-size: 0.6rem;
+        padding: 19px 26px;
+    }
+    .Dimageinfo h1 {
+        margin: 7px 20px;
+    }
+    .Dimageinfo h5 {
+        margin-top: 0px;
+    }
+
+    
+}
+@media screen and (width:1024px) {
+    .Dimageinfo .Dbutton .Daddbutton {
+        font-size: 0.5rem;
+        padding: 20px 30px;
+    }
+    .Dimageinfo .Dbutton .Dbuybutton {
+        font-size: 0.5rem;
+        padding: 20px 30px;
+    }
+    .Dimageinfo .Dcolor a {
+        height: 60px;
+
+    }
+    .Dimageinfo .DimageDec p {
+        font-size: 1rem;
+    }
+}

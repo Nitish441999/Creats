@@ -1,0 +1,56 @@
+#Footer-top p{
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: black;
+    
+    
+
+}
+#Footer-top a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 0px 20px;
+    
+}
+#Footer-top a:hover{
+   
+    color: whitesmoke;
+    
+}
+.footer-p ul{
+    list-style: none;
+    text-align: start;
+   
+}
+
+.footer-p ul li a {
+    text-decoration: none;
+     font-size: 17px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: 500;
+     padding: 3px 7px;
+     color:black;
+
+
+}
+.footer-p ul li a:hover{
+    color: whitesmoke;
+}
+.footer-p ul li i{
+    font-size: 17px;
+    color:black;
+
+
+} 
+#Follow ul li i{
+    font-size: 20px;
+}
+.footer-p ul h4{
+    color: #29292a;
+   margin: 10px 0px;
+   /* font-size: 2rem; */
+   font-weight: 600;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,227 @@
+.top-image{
+    width: 100%;
+    height: 800px;
+    background-image: url('../Image/Topcard.jpg');
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+#topimageinfo{
+   margin-bottom: 30px;
+}
+#topimageinfo h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #4e4e4e;
+
+}
+#topimageinfo P{
+    font-size: 1.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    margin-top: -10px;
+    color: #4e4e4e;
+
+}
+#topimageinfo .shop-men{
+    text-transform: uppercase;
+    padding: 10px 70px;
+    font-size: 1.5rem;
+    margin: 10px 0px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background: #D9AAB7;
+    margin: 0px 10px;
+
+}
+#topimageinfo .shop-men:hover{
+    background-color: #BA7E7E;;
+
+}
+#topimageinfo .shop-women{
+    text-transform: uppercase;
+    padding: 10px 50px;
+    font-size: 1.5rem;
+    margin: 10px 0px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background: #D9AAB7;
+
+}
+#topimageinfo .shop-women:hover{
+    background-color: #BA7E7E;;
+
+}
+
+
+
+
+
+.fullPhoto{
+    position: relative;
+    
+    object-fit: cover;
+    background-image: url(../Image/cardF1.jpg);
+    display: flex;
+    justify-content:center ;
+    align-items: end;
+    height: 700px;
+    background-size: cover;
+
+}
+
+.fullPhoto .fullinfo{
+    margin-bottom: 20px;
+   
+}
+.fullPhoto .fullinfo h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #BA7E7E;
+}
+.fullPhoto .fullinfo h5{
+    font-size: 1.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    margin-top: -10px;
+    color: #BA7E7E
+   
+
+}
+.fullPhoto .fullinfo button{
+    text-transform: uppercase;
+    padding: 10px 70px;
+    font-size: 1.5rem;
+    margin: 10px 0px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background: #D9AAB7;
+
+}
+.fullPhoto .fullinfo button:hover{
+    background-color: #BA7E7E;;
+}
+@media screen and (max-width:600px) {
+    .fullPhoto .fullinfo h1 {
+        letter-spacing: 1px;
+       font-weight: 600;
+        font-size: 2.5rem;
+        color: black;
+    }
+    .fullPhoto .fullinfo h5 {
+        font-size: 1rem;
+        color: black;
+    }
+    .sale_item_info h1{
+        font-size: 2rem;
+    }
+    
+}
+
+/*--------------------------------------------------shopbyocian------------------------------------------------*/
+.Mcato{
+    
+    margin: 10px;
+    height: 350px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 20px;
+}
+.Mcato img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 20px;
+}
+.Mcato h3{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+.Mcato:hover{
+    border-radius: 20px;
+
+    box-shadow:  4px 4px 4px 4px#bababa;
+}
+
+.slider1 img{
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+.sale_item{
+    width: 100%;
+    height: 600px;
+    background-image: url(../Image/slider2.webp);
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: start;
+
+    
+
+}
+.sale_item_info{
+   
+   color: whitesmoke;
+   width: 50%;
+   height: 100%;
+   align-items:center ;
+   padding: 150px 0px;
+
+}
+.sale_item_info h1{
+    font-size: 5rem;
+}
+.sale_item_info h2{
+    font-size: 5rem;
+}
+.sale_item_info a{
+    padding: 10px 40px;
+    
+    text-decoration: none;
+    background-color: #D9AAB7;
+    color: black;
+    font-size: 2rem;
+    border-radius: 20px;
+   
+    margin-top: 30px;
+    
+}
+.sale_item_info a:hover{
+    background-color: #BA7E7E;
+
+}
+@media screen and (max-width:600px) {
+    .fullPhoto .fullinfo h1 {
+        letter-spacing: 1px;
+       font-weight: 600;
+        font-size: 2.5rem;
+        color: black;
+    }
+    .fullPhoto .fullinfo h5 {
+        font-size: 1rem;
+        color: black;
+    }
+    .sale_item_info h1{
+        font-size: 4rem;
+    }
+    .sale_item_info h2{
+        font-size: 3rem;
+    }
+    .sale_item_info a {
+        font-size: 1.5rem;
+    }
+}

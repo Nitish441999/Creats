@@ -1,0 +1,14 @@
+.shopbyocian{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+.shopbyocian img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+#ShopByStyle{
+    display: flex ;
+}
